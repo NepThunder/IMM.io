@@ -17,13 +17,15 @@ body {
 header
 {
     position: absolute;
+    background-color: rgba(217, 209, 226, 0.8);
     top: 0;
     left: 0;
     height: 70px;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 60px;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-end; */
+    align-content: flex-start;
     align-items: center;
     z-index: 100;
 
@@ -34,23 +36,27 @@ header
     /* color: #359381; */
     pointer-events: none;
     margin-top: 10px;
-    margin-right: 270px;
+    margin-right:60%;
 }
+
 
 .nav a {
 
     text-decoration: none;
-    /* color: #359381; */
-    color: #fff;
-    padding: 6px 15px;
+    color: #359381;
+    /* color: #0c0c0c; */
+    padding: 6px 15px ;
     border-radius: 20px;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,  0, 0,.3);
+    
 }
 
 .nav a:hover,
 .nav a.active {
     background: #359381;
+    /* background: #6610f2; */
     color: #fff;
 }
 
@@ -65,6 +71,7 @@ header
 #text {
     position: absolute;
     font-size: 5em;
+    line-height: 90px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0,  0, 0,.3);
 }
