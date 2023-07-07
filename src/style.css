@@ -14,17 +14,18 @@ body {
     overflow-x:hidden;
 }
 
-header
+#header
 {
     position: absolute;
-    background-color: rgba(217, 209, 226, 0.8);
+    background-color: rgba(2, 102, 82,0.5);
     top: 0;
     left: 0;
-    height: 70px;
+    height: 60px;
     width: 100%;
     padding: 30px 60px;
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: center;
+    flex-direction: row;
     align-content: flex-start;
     align-items: center;
     z-index: 100;
@@ -35,16 +36,16 @@ header
     font-size: 2em;
     /* color: #359381; */
     pointer-events: none;
-    margin-top: 10px;
-    margin-right:60%;
+    margin-top: 0px;
+    margin-right:600px;
 }
 
-
-.nav a {
+#nav a {
 
     text-decoration: none;
-    color: #359381;
-    /* color: #0c0c0c; */
+    font-size: large;
+    /* color: #359381; */
+    color: #fff;
     padding: 6px 15px ;
     border-radius: 20px;
     margin: 0 5px;
@@ -53,8 +54,8 @@ header
     
 }
 
-.nav a:hover,
-.nav a.active {
+#nav a:hover,
+#nav a.active {
     background: #359381;
     /* background: #6610f2; */
     color: #fff;
@@ -68,9 +69,11 @@ header
     height: 100vh;
 }
 
+
 #text {
     position: absolute;
     font-size: 5em;
+    font-family: 'Poppins';
     line-height: 90px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0,  0, 0,.3);
@@ -84,14 +87,14 @@ header
     pointer-events: none;
 }
 
-.sec {
+/* .sec {
     position: relative;
     background: #003329;
     padding: 100px;
-}
-span{
-    margin-left: 20%;
-    font-size: 3rem;
+} */
+.parallax span {
+    margin-left: 90px;
+    font-size: 5rem;
 }
 
 .sec h2 {
@@ -105,3 +108,67 @@ span{
     color: #fff;
     font-weight: 300;
 }
+
+ .schedule{
+    position: relative;
+    padding: 50px 0;
+    height: fit-content;
+    background-color:whitesmoke;
+    /* margin-top: 50px; */
+}
+
+
+
+tr
+{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.td1{
+    padding: 10px;
+width: 80%;
+}
+.td2{
+    width: 20%;
+}
+
+.td1 ul li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+blockquote.blue1 {
+    padding: 0 10px;
+    margin: 0;
+    font-size: 17.5px;
+    border-left: 5px solid #1b0a58;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 0 10px;
+    margin: 0;
+    font-size: 17.5px;
+    border-left: 5px solid #1b0a58;
+}
+blockquote.green1 {
+    padding: 0 10px;
+    margin: 0;
+    font-size: 17.5px;
+    border-left: 5px solid #00d746;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-title h3{
+    margin:0 0 20px 0;
+    padding:0;
+}
+
+/* .fa-light{
+    font-size: 30px;
+} */
+
