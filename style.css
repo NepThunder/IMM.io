@@ -673,6 +673,9 @@ blockquote.green1 {
         font-size: 36px;
         text-shadow: rgba(0, 0, 0, .5);
     }
+    #nav a{
+        padding:2px;
+    }
     .parallax span {
         margin-left: 30px;
         font-size: 30px;
