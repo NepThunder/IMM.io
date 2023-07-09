@@ -48,8 +48,6 @@ body {
     justify-content: center;
 } */
 #nav {
-    margin-left: 20%;
-    /* Default margin-left */
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -60,7 +58,7 @@ body {
     text-decoration: none;
     font-size: large;
     color: #fff;
-    padding: 6px 10px;
+    /* padding: 6px 10px; */
     border-radius: 20px;
     margin: 0 5px;
     font-weight: 600;
@@ -603,7 +601,7 @@ blockquote.green1 {
     }
 
     #nav {
-        margin-left: 20%;
+        margin-left: 20px;
     }
 
     #nav a {
@@ -616,11 +614,14 @@ blockquote.green1 {
 
 @media (max-width: 768px) {
     #header {
-        padding: 20px;
+        padding: 5px;
+    }
+    #header a[href="#footer"]{
+        padding-right: 0px;
     }
 
     #nav {
-        margin-left: 10%;
+        margin-left: 10px;
     }
 
     #nav a {
@@ -660,8 +661,7 @@ blockquote.green1 {
     } */
 
     #nav a {
-        padding: 6px 5px;
-        margin: 5px 0;
+        /* margin: 5px 0; */
         font-size: 12px;
     }
 }
@@ -681,4 +681,5 @@ blockquote.green1 {
         width: 30px;
         height: 41px;
     }
+
 }
