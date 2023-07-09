@@ -78,7 +78,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 #text {
@@ -557,12 +557,12 @@ blockquote.green1 {
 
 /* height */
 
-@media(max-height:768px) {
+/* @media(max-height:768px) {
     .parallax {
         height: 120vh;
     }
     
-}
+} */
 
 @media(min-width:1024px) {
     #nav {
@@ -578,10 +578,13 @@ blockquote.green1 {
     }
 
     .parallax {
-        background: url('./images/bg.jpg');
+        background: url(images/bg.jpg);
         background-position: center;
         background-size: cover;
     }
+    /* .td1{
+        font-size
+    } */
 }
 
 @media(min-width:960px) {
@@ -606,11 +609,7 @@ blockquote.green1 {
         font-size: 17px;
     }
 
-    #text {
-        top: 110px;
-        font-size: 56px;
-        line-height: 80px;
-    }
+
 }
 
 
@@ -635,12 +634,6 @@ blockquote.green1 {
     .parallax span {
         margin-left: 40px;
         font-size: 42px;
-    }
-
-    #text {
-        top: 110px;
-        font-size: 48px;
-        line-height: 50px;
     }
 }
 
