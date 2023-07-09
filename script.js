@@ -25,6 +25,39 @@ const scrollHandler = () => {
 
 window.addEventListener('scroll', scrollHandler);
 
+document.addEventListener("DOMContentLoaded", function() {
+  var mybutton = document.getElementById("myBtn");
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 300 ||
+      document.documentElement.scrollTop > 300
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function scrollToTop() {
+    var scrollStep = -window.scrollY / (1000 / 10);
+
+    function scrollAnimation() {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+        requestAnimationFrame(scrollAnimation);
+      }
+    }
+
+    requestAnimationFrame(scrollAnimation);
+  }
+
+  mybutton.addEventListener("click", scrollToTop);
+  window.addEventListener("scroll", scrollFunction);
+});
+
+
+
 // document.addEventListener("DOMContentLoaded", function() {
 //   var mybutton = document.getElementById("myBtn");
 
@@ -65,36 +98,7 @@ window.addEventListener('scroll', scrollHandler);
 //   window.addEventListener("scroll", scrollFunction);
 // });
 
-document.addEventListener("DOMContentLoaded", function() {
-  var mybutton = document.getElementById("myBtn");
 
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 300 ||
-      document.documentElement.scrollTop > 300
-    ) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  function scrollToTop() {
-    var scrollStep = -window.scrollY / (1000 / 10);
-
-    function scrollAnimation() {
-      if (window.scrollY !== 0) {
-        window.scrollBy(0, scrollStep);
-        requestAnimationFrame(scrollAnimation);
-      }
-    }
-
-    requestAnimationFrame(scrollAnimation);
-  }
-
-  mybutton.addEventListener("click", scrollToTop);
-  window.addEventListener("scroll", scrollFunction);
-});
 
 
 
