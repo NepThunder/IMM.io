@@ -18,7 +18,7 @@ const scrollHandler = () => {
     hill1.style.top = value * 0.4 + 'px';
   }
 
-  if (value > maxValue) {
+  if (value > (maxValue+1)) {
     window.removeEventListener('scroll', scrollHandler);
   }
 };

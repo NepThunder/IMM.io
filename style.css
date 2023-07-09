@@ -555,7 +555,24 @@ blockquote.green1 {
 
 /* Responsive Styling */
 
-@media(max-width:320px) {
+/* height */
+
+@media(max-height:768px) {
+    .parallax {
+        height: 120vh;
+    }
+    
+}
+
+@media(min-width:1024px) {
+    #nav {
+        margin-left: 50%;
+    }
+
+}
+
+
+@media(max-width:1024px){
     .parallax img {
         display: none;
     }
@@ -566,21 +583,6 @@ blockquote.green1 {
         background-size: cover;
     }
 }
-
-
-@media(min-width:1024px) {
-    #nav {
-        margin-left: 50%;
-    }
-
-}
-
-@media(max-height:768px) {
-    .parallax {
-        height: 120vh;
-    }
-}
-
 
 @media(min-width:960px) {
     #nav {
@@ -688,17 +690,15 @@ blockquote.green1 {
     }
 }
 
-@media(max-width:360px) {
-    #text {
-        top: 250px;
-        color: #fff;
-        line-height: 40px;
-        font-size: 26px;
+@media(max-width:425px){
+    #text{
+        top:220px;
+        line-height: 50px;
+        font-size: 36px;
         text-shadow: rgba(0, 0, 0, .5);
     }
-
     .parallax span {
         margin-left: 30px;
-        font-size: 20px;
+        font-size: 30px;
     }
 }
