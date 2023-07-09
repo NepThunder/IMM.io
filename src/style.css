@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     background: #f9f9f9;
@@ -307,11 +311,13 @@ blockquote.green1 {
 .sp-container {
     margin-top: -28px;
     background: #359381;
+    height:max-content ;
 }
 
 .sp_panel-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 0px 0 20px 0;
     max-width: 1200px;
@@ -320,6 +326,7 @@ blockquote.green1 {
 
 .sp_panel {
     flex-basis: calc(33.33% - 40px);
+    min-width: 300px;
     height: 350px;
     background-color: #f2f2f2;
     padding: 25px;
@@ -431,7 +438,7 @@ blockquote.green1 {
 }
 
 .contact-box {
-    width: 300px;
+    min-width: 300px;
     flex: 0 0 45%;
     padding: 40px 20px;
     border-radius: 5px;
@@ -491,6 +498,7 @@ blockquote.green1 {
 /* Additional styles for aligning boxes side by side */
 .contact-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
