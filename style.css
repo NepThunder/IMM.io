@@ -118,7 +118,7 @@ tr {
 }
 
 .td1 {
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px;
     width: 70%;
 }
@@ -132,13 +132,10 @@ tr {
     color: #150745;
 }
 
-.td1 p {
-    padding-left: 20px;
-    font-size: 25px;
-}
+
 
 .td2 {
-    font-size: 18px;
+    font-size: 14px;
     width: 30%;
 }
 
@@ -546,6 +543,7 @@ blockquote.green1 {
 }
 
 .col-md-8 p {
+    font-size: 12px;
     margin-top: 5px;
 }
 
