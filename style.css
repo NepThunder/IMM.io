@@ -578,7 +578,7 @@ blockquote.green1 {
     }
 
     .parallax {
-        background: url('images/bg.jpg');
+        background: url(images/bg.jpg);
         background-position: center;
         background-size: cover;
     }
