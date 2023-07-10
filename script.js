@@ -56,19 +56,4 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", scrollFunction);
 });
 
-//  // Check device width on page load
-// checkDeviceWidth();
-//  // Check device width on window resize
-// window.addEventListener('resize', checkDeviceWidth);
-
-// function checkDeviceWidth() {
-//   var video = document.getElementById('video');
-//   var deviceWidth = window.innerWidth;
-
-//   if (deviceWidth <= 768) {
-//     video.setAttribute('controls', '');
-//   } else {
-//     video.removeAttribute('controls');
-//   }
-// }
 
