@@ -132,7 +132,6 @@ tr {
 }
 
 
-
 .td2 {
     width: 30%;
 }
@@ -541,14 +540,23 @@ blockquote.green1 {
 }
 
 #location {
+    margin-top: 5px;
+    margin-left: 10px;
     margin-right: 10px;
-    width: 23px;
+    width:23px;
     height: 30px;
 }
 
-.col-md-8 p {
+.col-md-8 td a {
+    text-decoration: none;
     padding-top: 5px;
     margin-top: 5px;
+}
+
+#pin{
+    
+    width:23px;
+    height: 30px;
 }
 
 #video{
