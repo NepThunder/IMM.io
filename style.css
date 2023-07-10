@@ -21,7 +21,7 @@ body {
 
 #header {
     position: absolute;
-    background-color: rgba(2, 102, 82, 0.5);
+    background-color: rgb(2, 102, 82,.9);
     top: 0;
     left: 0;
     height: 60px;
