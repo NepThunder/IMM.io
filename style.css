@@ -549,8 +549,8 @@ blockquote.green1 {
 
 .col-md-8 td a {
     text-decoration: none;
-    padding-top: 5px;
-    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 16px;
 }
 
 #pin{
@@ -717,5 +717,8 @@ blockquote.green1 {
 
     #disclaimer{
       font-size: 12px;
+    }
+    .col-md-8 td a {
+        font-size: 12px;
     }
 }
