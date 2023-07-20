@@ -40,16 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function scrollToTop() {
-    var scrollStep = -window.scrollY / (1000 / 10);
-
-    function scrollAnimation() {
-      if (window.scrollY !== 0) {
-        window.scrollBy(0, scrollStep);
-        requestAnimationFrame(scrollAnimation);
-      }
-    }
-
-    requestAnimationFrame(scrollAnimation);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   mybutton.addEventListener("click", scrollToTop);

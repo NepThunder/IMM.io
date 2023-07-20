@@ -41,12 +41,6 @@ body {
     margin-top: 0px;
 }
 
-/* #nav {
-    margin-left: 50%;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-} */
 #nav {
     flex-grow: 1;
     display: flex;
@@ -70,39 +64,15 @@ body {
     background: #359381;
     color: #fff;
 }
-/* 
-.parallax {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
 
 #text {
     position: absolute;
     font-size: 5em;
     font-family: 'Poppins';
     line-height: 90px;
-    /* color: #00d746;*/
     color: #fff;
-    /* color: rgb(27, 10, 89); */
     text-shadow: 2px 2px 4px rgba(27, 10, 89, .3);
 }
-
-/* .parallax img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    pointer-events: none;
-}
-
-.parallax span {
-    margin-left: 90px;
-    font-size: 5rem;
-} */
-
 .schedule {
     position: relative;
     padding: 20px 20px;
@@ -135,10 +105,6 @@ tr {
 .td2 {
     width: 30%;
 }
-
-/* .td2:nth-child(4){
-    
-} */
 
 .td1 ul li {
     font-size: 15px;
@@ -193,7 +159,6 @@ blockquote.green1 {
 .panel-container {
     display: flex;
     flex-wrap: wrap;
-    /* flex-basis: 2; */
     justify-content: center;
     gap: 20px;
     background-color: #359381;
@@ -203,8 +168,6 @@ blockquote.green1 {
 
 .panel {
     margin-bottom: 40px;
-    /* flex-basis: calc(33.33% - 40px); */
-    /* flex-basis: 2; */
     height: 400px;
     background-color: #f2f2f2;
     padding: 10px;
@@ -213,8 +176,6 @@ blockquote.green1 {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-
-
 }
 
 .panel:hover {
@@ -360,7 +321,6 @@ blockquote.green1 {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    /* padding: 10px; */
     font-size: 20px;
     text-align: center;
     z-index: 1;
@@ -401,8 +361,6 @@ blockquote.green1 {
 
 /* Footer*/
 
-
-
 .footer {
     max-width: 800px;
     margin: 0 auto;
@@ -421,12 +379,8 @@ blockquote.green1 {
 
 .contact-info h2 {
     margin: 0;
-    /* font-size: 24px; */
-    /* color: #336699; */
 }
-
 .contact-info span {
-    /* font-size: 18px; */
     color: #888888;
 }
 
@@ -495,16 +449,11 @@ blockquote.green1 {
     border-top: 1px solid #dddddd;
 }
 
-/* Additional styles for aligning boxes side by side */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
-
-
 
 .copyright {
     margin-top: 10px;
@@ -515,9 +464,6 @@ blockquote.green1 {
     text-align: center;
     font-family: sans-serif;
 }
-
-
-
 
 #myBtn {
     display: none;
@@ -554,29 +500,16 @@ blockquote.green1 {
 }
 
 #pin{
-    
     width:23px;
     height: 30px;
 }
-
 
 #disclaimer{
     margin-top: 70px;
     text-align: center;
 }
 
-
 /* Responsive Styling */
-
-/* height */
-
-/* @media(max-height:768px) {
-    .parallax {
-        height: 120vh;
-    }
-    
-} */
-
 
 @media(min-width:1024px) {
     #nav {
@@ -587,19 +520,6 @@ blockquote.green1 {
 
 
 @media(max-width:1024px){
-    /* .parallax img {
-        display: none;
-    }
-
-    .parallax {
-        background: url(images/bg.jpg);
-        background-position: center;
-        background-size: cover;
-    } */
-    /* .td1{
-        font-size
-    } */
-
     .td1 ul li {
         font-size: 12px;
         margin-top: 10px;
@@ -624,11 +544,6 @@ blockquote.green1 {
 
 
 @media(max-width:960px) {
-    /* .parallax span {
-        margin-left: 30px;
-        font-size: 50px;
-    } */
-
     #nav {
         margin-left: 20px;
     }
@@ -636,8 +551,6 @@ blockquote.green1 {
     #nav a {
         font-size: 17px;
     }
-
-
 }
 
 
@@ -657,21 +570,9 @@ blockquote.green1 {
         margin: 5px 0;
         font-size: 14px;
     }
-
-    /* .parallax span {
-        margin-left: 40px;
-        font-size: 42px;
-    }
-    .parallax{
-        height: 110vh;
-    } */
 }
 
 @media (max-width:576px) {
-    /* .parallax span {
-        margin-left: 20px;
-        font-size: 32px;
-    } */
 
     #nav a {
         font-size: 12px;
@@ -682,15 +583,8 @@ blockquote.green1 {
         font-size: 36px;
         line-height: 45px;
     }
-/* 
-    .logo img {
-        width: 45px;
-        height: 56px;
-        margin-right: 0px;
-    } */
 
     #nav a {
-        /* margin: 5px 0; */
         font-size: 12px;
     }
 }
@@ -705,10 +599,6 @@ blockquote.green1 {
     #nav a{
         padding:2px;
     }
-    /* .parallax span {
-        margin-left: 30px;
-        font-size: 30px;
-    } */
     .logo img{
         margin-left: 2px;
         width: 30px;
