@@ -147,6 +147,19 @@ blockquote.green1 {
 
 /* pannel */
 
+.panel {
+    margin-bottom: 40px;
+    height: 500px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 400px;
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
 .pannel1 {
     position: relative;
     height: fit-content;
@@ -166,17 +179,7 @@ blockquote.green1 {
     margin: 0 auto;
 }
 
-.panel {
-    margin-bottom: 40px;
-    height: 400px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 280px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
+
 
 .panel:hover {
     transform: translateY(-5px);
@@ -199,6 +202,7 @@ blockquote.green1 {
     bottom: 0;
     left: 0;
     width: 100%;
+    min-width: 300px;
     background-color: #1b0a58;
     color: #fff;
     padding: 10px;
@@ -319,15 +323,18 @@ blockquote.green1 {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: #150745;
     color: #fff;
     font-size: 20px;
     text-align: center;
     z-index: 1;
     height: 18%;
     padding-bottom: 5%;
-
-
+}
+.sp_panel .sp_name-bar:nth-child(13) {
+    padding: 0;
+    background-color: #00d746;
 }
 
 .sp_panel .sp_name-bar p {
@@ -394,7 +401,7 @@ blockquote.green1 {
 .contact-box {
     min-width: 300px;
     flex: 0 0 45%;
-    padding: 40px 20px;
+    padding: 40px 10px;
     border-radius: 5px;
     background-color: #30abc9;
     margin: 10px;
